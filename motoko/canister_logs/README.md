@@ -1,5 +1,9 @@
 # Canister logs
 
+This sample project demonstrates a basic logging and error handling system for a canister deployed on the [Internet Computer](https://github.com/dfinity/ic). The `canister_logs` project is implemented in [Motoko](https://github.com/dfinity/examples/tree/master/motoko/canister_logs) and showcases how to utilize logging for debugging and monitoring canister operations. It also demonstrates the use of timers and error handling through traps.
+
+The `canister_logs` canister is designed to periodically log messages and simulate errors using traps. It provides methods to print messages, trigger traps, and handle memory out-of-bounds errors. The project includes a script to continuously poll and display logs, making it easier to monitor canister activity in real-time.
+
 ## Prerequisites
 
 - [x] Install the [IC
